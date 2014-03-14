@@ -2,8 +2,7 @@ apply plugin: 'java'
 apply plugin: 'ear'
 
 dependencies {
-
-	deploy project(':app-war')
+	deploy project (path: ':app-war', configuration: 'archives')
 	earlib 'org.apache.commons:commons-lang3:3.1'
 
 }
