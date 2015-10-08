@@ -1,3 +1,2 @@
 include ':app-ear'
 include ':app-war'
-
