@@ -1,5 +1,5 @@
 apply plugin: 'ear'
 
 dependencies {
-	deploy project(':app-war')
+	deploy project(path: ':app-war', configuration: 'archives')
 }
